@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Baloo 2', sans-serif;
+}
+
+p{
+  font-size: 24px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+body, h1, h2, h3, p{
+  margin: 0;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+
+  h1{
+    font-size: 48px;
+  }
+
+  h2{
+    font-size: 42px;
+  }
+
+  h3{
+    font-size: 36px;
+  }
+
+  p{
+    font-size: 28px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  h1{
+    font-size: 56px;
+  }
+
+  h2{
+    font-size: 48px;
+  }
+
+  h3{
+    font-size: 42px;
+  }
+
+  p{
+    font-size: 32px;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/* Barra de desplazamiento */
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Color del fondo de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color de la barra de desplazamiento */
+  border-radius: 8px; /* Radio de las esquinas de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color de la barra de desplazamiento al pasar el mouse */
+}
