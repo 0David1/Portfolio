@@ -1,4 +1,31 @@
-section{
+footer{
   background-color: rgb(46,46,46);
   color: rgb(255, 255, 255);
 }
+
+svg{
+  fill: rgb(255, 255, 255);
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0rem;
+}
+
+li, a{
+  display: flex;
+}
+
+p{
+font-size: 18px;
+padding-right: 10px;
+}
+

@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
+import { IntersectionObserverComponent } from './intersection-observer/intersection-observer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     AboutMeComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    IntersectionObserverComponent
   ],
   imports: [
     BrowserModule,

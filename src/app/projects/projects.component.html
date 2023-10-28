@@ -1,39 +1,55 @@
 <section>
 
-  <div class="container-flex">
+  <div class="container-flex grow-on-load" #elementToAnimate3>
     <div>
       <h2>Projects</h2>
-      <p>Some projects that i was working</p>
+      <p>Some projects I was working on.</p>
     </div>
   </div>
 
 
   <div class="container-grid">
-    <div class="item item1">
-      <div class="project-container">
-        <div class="project-content1">
-          <h3>Tattoo Page</h3>
-          <p>HTML5<p>
+    <div class="grow-on-load" #item1>
+      <div class="item item1 ">
+        <div class="project-container">
+          <div class="project-content1">
+            <h3>Tattoo Page</h3>
+            <p>HTML5</p>
+            <P>SCSS</P>
+            <P>ANGULAR</P>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item item2">
-      <div class="project-container">
-        <div class="project-content2">
-          <h3>Tattoo Page</h3>
-          <p>content</p>
+    <div class="grow-on-load" #item2>
+      <div class="item item2">
+        <div class="project-container">
+          <div class="project-content2">
+            <h3>Task Page</h3>
+            <p>HTML5</p>
+            <P>SCSS</P>
+            <P>ANGULAR</P>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item item3">
-      <div class="project-container">
-        <div class="project-content3">
-          <h3>Tattoo Page</h3>
-          <p>content</p>
+    <div class="grow-on-load" #item3>
+      <div class="item item3">
+        <div class="project-container">
+          <div class="project-content3">
+            <h3>Poker Page</h3>
+            <p>HTML5</p>
+            <P>SCSS</P>
+            <P>ANGULAR</P>
+          </div>
         </div>
       </div>
     </div>
-
   </div>
+
+  <app-intersection-observer [target]="elementToAnimate3"></app-intersection-observer>
+  <app-intersection-observer [target]="item1"></app-intersection-observer>
+  <app-intersection-observer [target]="item2"></app-intersection-observer>
+  <app-intersection-observer [target]="item3"></app-intersection-observer>
 
 </section>

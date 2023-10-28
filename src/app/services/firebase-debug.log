@@ -1,0 +1,15 @@
+[debug] [2023-10-28T00:39:48.601Z] ----------------------------------------------------------------------
+[debug] [2023-10-28T00:39:48.602Z] Command:       D:\nodejs\node.exe C:\Users\enzob\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-28T00:39:48.603Z] CLI Version:   12.7.0
+[debug] [2023-10-28T00:39:48.603Z] Platform:      win32
+[debug] [2023-10-28T00:39:48.603Z] Node Version:  v18.17.0
+[debug] [2023-10-28T00:39:48.604Z] Time:          Fri Oct 27 2023 21:39:48 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-10-28T00:39:48.604Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-28T00:39:48.610Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-10-28T00:39:48.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-28T00:39:48.706Z] > authorizing via signed-in user (enzobautista1000@gmail.com)
+[debug] [2023-10-28T00:39:48.706Z] [iam] checking project portfolio-4dd45 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-28T00:39:48.707Z] > refreshing access token with scopes: []
+[debug] [2023-10-28T00:39:48.708Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-28T00:39:48.708Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]

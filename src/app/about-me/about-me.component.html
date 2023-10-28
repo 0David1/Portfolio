@@ -1,10 +1,13 @@
 <section>
-  <div class="container-flex">
+  <div class="container-flex grow-on-load" #elementToAnimate1>
     <div class="title">
       <h1>Full-stack Web Developer</h1>
     </div>
     <div class="description">
-      <p>Hello, I'm Enzo, a passionate beginner in full stack development. My goal is to learn and create amazing web and mobile applications. While I'm just starting out, I'm excited about this journey into the world of development.</p>
+      <p>Hello, I'm Enzo, a passionate beginner in full stack development. My goal is to learn and create amazing web
+        and mobile applications. While I'm just starting out, I'm excited about this journey into the world of
+        development.</p>
     </div>
-  </div>
+  </div><app-intersection-observer [target]="elementToAnimate1"></app-intersection-observer>
+
 </section>
